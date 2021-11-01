@@ -1,0 +1,75 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* ==================
+Header
+================== */
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header div {
+    display: flex;
+}
+
+header div h1 {}
+
+header nav {
+    display: flex;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {}
+
+/* ==================
+Main
+================== */
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main h2 {}
+
+main div {
+    width: 30vw;
+    height: 30vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+main div:nth-of-type(1) {
+    background: url(../img/ring001.png) center/cover no-repeat;
+}
+
+main div:nth-of-type(2) {
+    background: url(../img/ring002.png) center/cover no-repeat;
+}
+
+main div:nth-of-type(3) {
+    background: url(../img/ring003.png) center/cover no-repeat;
+}
+
+main div:nth-of-type(4) {
+    background: url(../img/ring004.png) center/cover no-repeat;
+}
+
+main div:nth-of-type(5) {
+    background: url(../img/ring005.png) center/cover no-repeat;
+}
+
+main div:nth-of-type(6) {
+    background: url(../img/ring006.png) center/cover no-repeat;
+}
